@@ -23,8 +23,6 @@ Simulation Mode (test without real devices)
 
 Modern UI built with CustomTkinter
 
-Non-blocking polling using Thread / ThreadPoolExecutor
-
 Save state in devices.json
 
 Customizable Detail Card order
@@ -35,6 +33,7 @@ Monitor Strip mode (NOC-style view)
 ## Requirements | پیش‌نیازها
 
 Python 3.10 or higher
+
 Windows (tested on Windows 10/11)
 
 ## Install dependencies:
@@ -43,6 +42,7 @@ pip install -r requirements.txt
 ## How to Run | نحوه اجرا
 
 Edit devices.json and add your devices (or use Simulation mode).
+
 Run the application:python main.py
 
 Or use the provided batch file:
@@ -50,13 +50,19 @@ run.bat
 
 ## Configuration | تنظیمات
 Main configuration file: devices.json
+
 Important fields:
 
 host: IP address of the device
+
 community: SNMP community string
+
 ssh_user / ssh_password: Credentials for config backup
+
 simulate: Set to true for testing without real devices
+
 sim_base: Base temperature used in simulation mode
+
 
 ## Security Note:
 Never commit real credentials, community strings, or production device information to the repository.
@@ -66,6 +72,7 @@ For testing without real Cisco devices, set "simulate": true in devices.json.
 The application will generate realistic temperature and status data.
 
 ## Project Structure | ساختار پروژه
+
 cisco-temp-monitor/
 
 ├── main.py → Main application
@@ -88,6 +95,7 @@ cisco-temp-monitor/
 
 ## Disclaimer | سلب مسئولیت
 This tool is intended for educational and internal network monitoring purposes.
+
 Use it responsibly and only on devices you own or have permission to monitor.
 
 ## Author
