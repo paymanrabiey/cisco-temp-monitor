@@ -5,29 +5,29 @@ A Cisco network device monitoring tool focused on temperature monitoring, with a
 
 ## Features | قابلیت‌ها
 
--Temperature monitoring with ~60 second polling
+- Temperature monitoring with ~60 second polling
 
--CPU / RAM / Uptime / PoE monitoring (default 10-minute interval)
+- CPU / RAM / Uptime / PoE monitoring (default 10-minute interval)
 
--SNMP Inventory (static info, interfaces, ports, stack, CDP/LLDP)
+- SNMP Inventory (static info, interfaces, ports, stack, CDP/LLDP)
 
--Physical port view for Switch and Stack
+- Physical port view for Switch and Stack
 
--Network Discovery via SNMP
+- Network Discovery via SNMP
 
--Config Backup (Running & Startup) via SSH
+- Config Backup (Running & Startup) via SSH
 
--Config version history and Diff
+- Config version history and Diff
 
--Simulation Mode (test without real devices)
+- Simulation Mode (test without real devices)
 
--Modern UI built with CustomTkinter
+- Modern UI built with CustomTkinter
 
--Save state in devices.json
+- Save state in devices.json
 
--Customizable Detail Card order
+- Customizable Detail Card order
 
--Monitor Strip mode (NOC-style view)
+- Monitor Strip mode (NOC-style view)
 
 
 ## Requirements | پیش‌نیازها
