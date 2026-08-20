@@ -54,6 +54,7 @@ The application will generate realistic temperature and status data.
 
 ## Project Structure | ساختار پروژه
 cisco-temp-monitor/
+
 ├── main.py → Main application
 
 ├── snmp_temp.py → Temperature monitoring
