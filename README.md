@@ -31,7 +31,7 @@ A Cisco network device monitoring tool focused on temperature monitoring, with a
 
 Install dependencies:
 
-```bash
+
 pip install -r requirements.txt
 
 
