@@ -63,7 +63,7 @@ Never commit real credentials, community strings, or production device informati
 For testing without real Cisco devices, set "simulate": true in devices.json.
 The application will generate realistic temperature and status data.
 
-##Project Structure | ساختار پروژه
+## Project Structure | ساختار پروژه
 textcisco-temp-monitor/
 ├── main.py                 # Main application
 ├── snmp_temp.py            # Temperature monitoring
@@ -75,11 +75,11 @@ textcisco-temp-monitor/
 ├── run.bat
 └── VERSION
 
-##Disclaimer | سلب مسئولیت
+## Disclaimer | سلب مسئولیت
 This tool is intended for educational and internal network monitoring purposes.
 Use it responsibly and only on devices you own or have permission to monitor.
 
-##Author
+## Author
 Developed for internal use in monitoring Cisco devices.
 text---
 
@@ -91,4 +91,6 @@ text---
 3. ذخیره کن.
 4. برگرد به GitHub Desktop → پیام کامیت بنویس (مثلاً `Add bilingual README`) → Commit → Push origin.
 
----
+
+
+Good luck.
