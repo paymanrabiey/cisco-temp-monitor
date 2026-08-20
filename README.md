@@ -1,21 +1,34 @@
 ## Cisco Temperature Monitoring
 ابزار مانیتورینگ تجهیزات سیسکو با تمرکز اصلی روی دمای دستگاه‌ها، همراه با قابلیت‌های اضافی برای مانیتورینگ منابع، اینونتوری SNMP، پشتیبان‌گیری کانفیگ و حالت شبیه‌سازی.
+
 A Cisco network device monitoring tool focused on temperature monitoring, with additional features for CPU/RAM/PoE, SNMP inventory, physical port view, network discovery, configuration backup, and simulation mode.
 
 ## Features | قابلیت‌ها
 
 Temperature monitoring with ~60 second polling
+
 CPU / RAM / Uptime / PoE monitoring (default 10-minute interval)
+
 SNMP Inventory (static info, interfaces, ports, stack, CDP/LLDP)
+
 Physical port view for Switch and Stack
+
 Network Discovery via SNMP
+
 Config Backup (Running & Startup) via SSH
+
 Config version history and Diff
+
 Simulation Mode (test without real devices)
+
 Modern UI built with CustomTkinter
+
 Non-blocking polling using Thread / ThreadPoolExecutor
+
 Save state in devices.json
+
 Customizable Detail Card order
+
 Monitor Strip mode (NOC-style view)
 
 
@@ -73,7 +86,7 @@ cisco-temp-monitor/
 
 └── VERSION
 
-##Disclaimer | سلب مسئولیت
+## Disclaimer | سلب مسئولیت
 This tool is intended for educational and internal network monitoring purposes.
 Use it responsibly and only on devices you own or have permission to monitor.
 
