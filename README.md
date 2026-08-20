@@ -81,15 +81,8 @@ Use it responsibly and only on devices you own or have permission to monitor.
 
 ## Author
 Developed for internal use in monitoring Cisco devices.
-text---
 
-### چطور اضافه کنی؟
 
-**روش ۱ (پیشنهادی):**
-1. در GitHub Desktop روی فایل `README.md` دابل‌کلیک کن (یا از طریق Show in Explorer بازش کن).
-2. کل محتوای قبلی رو پاک کن و متن بالا رو جایگزین کن.
-3. ذخیره کن.
-4. برگرد به GitHub Desktop → پیام کامیت بنویس (مثلاً `Add bilingual README`) → Commit → Push origin.
 
 
 
